@@ -1,0 +1,73 @@
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+@import "tailwindcss";
+
+/* --- Custom Variables and Layout Core --- */
+:root {
+  /* Futuristic Neon Blue Theme Overriding Default Grays */
+  --text: #8a99ad;
+  --text-h: #ffffff;
+  --bg: #0a0a12;
+  --border: rgba(0, 240, 255, 0.2);
+  --code-bg: rgba(16, 16, 28, 0.65);
+  --accent: #00f0ff; /* Glowing Neon Blue */
+  --accent-bg: rgba(0, 240, 255, 0.1);
+  --accent-border: rgba(0, 240, 255, 0.5);
+  --social-bg: rgba(47, 48, 58, 0.5);
+  --shadow: rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+
+  /* Typography Fallbacks */
+  --sans: 'Rajdhani', system-ui, sans-serif;
+  --heading: 'Orbitron', system-ui, sans-serif;
+  --mono: 'Source Code Pro', monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color: var(--text);
+  background: var(--bg);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #05050a;
+    --code-bg: rgba(10, 10, 18, 0.85);
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  width: 100%;
+  overflow-x: hidden;
+  html {
+  scroll-behavior: smooth;
+}
+}
+
+/* Changed: Allowed #root to be true 100% full-width layout window */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* Added: Layout wrapper to safely bind body pages to 1400px without clipping the header */
+.app-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
