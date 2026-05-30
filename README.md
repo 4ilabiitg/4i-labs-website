@@ -1,4 +1,5 @@
 QC 101 – Quantum Computing Summer Course Platform
+
 QC 101 is an interactive, high-performance web platform engineered to host the comprehensive 3-week quantum computing curriculum developed by 4i Labs, IIT Guwahati. The web application seamlessly transitions students from the foundational axioms of quantum mechanics to hardware-level circuit execution and advanced Quantum Machine Learning (QML) deployment pipelines.
 
 🚀 Architecture & Core Features
