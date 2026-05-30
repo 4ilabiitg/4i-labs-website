@@ -1,16 +1,44 @@
-# React + Vite
+QC 101 – Quantum Computing Summer Course Platform
+QC 101 is an interactive, high-performance web platform engineered to host the comprehensive 3-week quantum computing curriculum developed by 4i Labs, IIT Guwahati. The web application seamlessly transitions students from the foundational axioms of quantum mechanics to hardware-level circuit execution and advanced Quantum Machine Learning (QML) deployment pipelines.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Architecture & Core Features
+Dynamic Phase Roadmap & Timeline: A responsive, structured curriculum engine tracking progression from single-qubit mechanics up to complex astronomical capstone modules.
 
-Currently, two official plugins are available:
+Granular Asset Management Matrix: Organizes daily lesson paths categorized into specialized delivery formats:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🎥 Video Lectures
 
-## React Compiler
+📖 Explanatory Documentation & Blogs
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+💻 Native Jupyter Notebooks (.ipynb)
 
-## Expanding the ESLint configuration
+State-Gated Progress Indexing: Utilizes local storage tracking engines to resolve core processing nodes, dynamically calculating overall material progression metrics.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Chronological Access Locks: Built-in sequential gating to unlock advanced multi-qubit and QML modules natively based on structural pacing.
+
+🛠️ Technical Stack
+Frontend Library: React.js (Functional Components, Hooks)
+
+Build Toolchain: Vite (Optimized for lightning-fast HMR and OXC compilation parsing)
+
+Styling Engine: Tailwind CSS
+
+Iconography: Lucide React
+
+State Persistence: HTML5 Web Storage API (localStorage matrix caching)
+
+📅 Curriculum Breakdown
+🔹 Week 01: Quantum Foundations (WK1_FOUND)
+Focus: Core linear algebra, state vector frameworks, and structural speedup mechanics.
+
+Milestones: Heisenberg's uncertainty configurations, single/multi-qubit gate logic, Bloch sphere vector visualization, Qiskit execution runtime setup, Bell inequality verifications, and custom computational oracles (Deutsch-Jozsa & Grover’s search processing labs).
+
+🔹 Week 02: Advanced Math Transforms & ML (WK2_MATH_ML)
+Focus: Bridging algorithmic transforms with classical high-dimensional classification.
+
+Milestones: Quantum Fourier Transform (QFT) mathematics, Quantum Phase Estimation (QPE) compilers, Shor’s period-finding structures, multivariate linear/logistic regressions, gradient descent cost parameters, and hyperparameter classification cores (KNN & SVM).
+
+🔹 Week 03: Quantum Kernels & Capstone Deployments (WK3_KERN_CAP)
+Focus: Variational workflows and quantum-classical hybrid pipeline engineering.
+
+Milestones: Variational Quantum Eigensolvers (VQE), QAOA matrix optimization models, Quantum Support Vector Machine (Q-SVM) theory, real programmatic execution inside PennyLane + Scikit-Learn pipelines, PCA dimensionality reductions, class imbalance engineering, and the Kepler Exoplanet Target Capstone.
