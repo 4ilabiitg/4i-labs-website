@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Trophy, Medal, Award, Flame, ArrowUpRight, Terminal, CheckCircle2, ShieldAlert, Lock, Loader2 } from 'lucide-react';
 
@@ -230,4 +231,4 @@ export default function Leaderboard({ customData }) {
       </div>
     </section>
   );
-}
+} 

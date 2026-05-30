@@ -7,7 +7,7 @@ export default function Navbar() {
 
   const navItems = [
     { id: 'home', label: 'Home' },
-    { id: 'curriculum', label: 'Curriculum' },
+    { id: 'curriculum', label: 'Course Structure' },
     { id: 'resources', label: 'Resources' },
     { id: 'leaderboard', label: 'Leaderboard' }
   ];
@@ -91,4 +91,4 @@ export default function Navbar() {
       )}
     </nav>
   );
-}
+} 
